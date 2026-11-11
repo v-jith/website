@@ -17,6 +17,17 @@
                 margin-right: 4vw;
             }
         }
+        .paper-abstract {
+            margin-top: 0.75rem;
+        }
+        .paper-abstract summary {
+            cursor: pointer;
+            display: inline-block;
+            font-weight: 600;
+        }
+        .paper-abstract p {
+            margin-top: 0.5rem;
+        }
     </style>
 </head>
 <body>
@@ -38,55 +49,32 @@
             <ul style="text-align: left;">
                 <li>
                     <strong><a href="https://www.dropbox.com/scl/fi/8gadlow2yvm1257jipglt/BAI_with_Knapsacks__Minimax_Policies-1.pdf?rlkey=u74alwv5s24ofn1kiqxv4tyrz&st=7wfgw542&dl=0">Best Arm Identification with Knapsacks: Minimax Policies</a></strong>
-                    <div>
-                        <p>A resource-constrained decision maker (DM) designs a continuous-time sequential
-experiment to determine the best choice from an array of treatments. The DM
-divides her attention between observing the treatments until one of the resources
-runs out. Under the minimax regret criterion, we characterize the optimal sampling
-strategy for two treatments in the following settings: (1) when there is a fixed array
-of resources and (2) when there is a single resource (money) and the DM can stop
-adaptively. Our analysis relies on a reformulation of the typical optimal stopping
-problem in which we model diffusions with respect to the cumulative resource
-expenditure rather than the elapsed time.</p>
-                    </div>
+                    <details class="paper-abstract">
+                        <summary>Show abstract</summary>
+                        <p>A resource-constrained decision maker (DM) designs a continuous-time sequential experiment to determine the best choice from an array of treatments. The DM divides her attention between observing the treatments until one of the resources runs out. Under the minimax regret criterion, we characterize the optimal sampling strategy for two treatments in the following settings: (1) when there is a fixed array of resources and (2) when there is a single resource (money) and the DM can stop adaptively. Our analysis relies on a reformulation of the typical optimal stopping problem in which we model diffusions with respect to the cumulative resource expenditure rather than the elapsed time.</p>
+                    </details>
                 </li>
                 <li>
                     <strong><a href="https://www.dropbox.com/scl/fi/4br0jj34kwpl6xgycnqpt/Persuasive_Experiment_Design.pdf?rlkey=kpl6gcngxlg9x4xetstlmup3x&e=1&st=yeqgnke7&dl=0">Designing Persuasive Experiments</a> (joint with Karun Adusumilli)</strong>
-                    <div>
-                        <p>Incentives in experimental design are often misaligned: experimenters de-
-sign and finance experiments to seek regulatory approval, while regulators seek to maxi-
-mize social-welfare. We propose a framework to resolve this conflict, wherein regulators
-set a minimum expected welfare threshold, and experimenters optimize designs subject
-to this constraint. It requires no knowledge of experimenters’ private preferences or costs
-and mitigates strategic Bayesian persuasion. Under normal priors, sampling according
-to the Neyman-allocation is always optimal, independent of the specific objectives. Fur-
-thermore, we characterize the optimal stopping-rule. In a numerical study calibrated to
-historical clinical-trial data, our framework reduces expected sample-sizes by over 48%
-relative to classical designs that attain the same social welfare.</p>
-                    </div>
+                    <details class="paper-abstract">
+                        <summary>Show abstract</summary>
+                        <p>Incentives in experimental design are often misaligned: experimenters design and finance experiments to seek regulatory approval, while regulators seek to maximize social welfare. We propose a framework to resolve this conflict, wherein regulators set a minimum expected welfare threshold, and experimenters optimize designs subject to this constraint. It requires no knowledge of experimenters’ private preferences or costs and mitigates strategic Bayesian persuasion. Under normal priors, sampling according to the Neyman allocation is always optimal, independent of the specific objectives. Furthermore, we characterize the optimal stopping rule. In a numerical study calibrated to historical clinical-trial data, our framework reduces expected sample sizes by over 48% relative to classical designs that attain the same social welfare.</p>
+                    </details>
                 </li>
             </ul>
         </section>
 
         <section>
             <h2>Work In Progress</h2>
-           <ul style="text-align: left;">
+            <ul style="text-align: left;">
                 <li>
                     <strong><a href="https://www.dropbox.com/scl/fi/4gnd1djmjv4p5y08i0vcg/Robust_Sequential_Experiments_and_Asymptotic_Optimality-33.pdf?rlkey=jqleq3pvtxbkyimw73ue9adt0&st=4rtwr8a0&dl=0">Adaptive Experiments under Robustness</a></strong>
-                    <div>
-                        <p>Recent literature on robustness has axiomatized decision making under both ambiguity and misspecification, 
-                            raising a natural question as to how decision makers (DMs) can design robust decision rules. 
-                            In this paper, we formalize ambiguity and misspecification in dynamic settings and construct optimal decision 
-                            rules under various applications of the robustness framework. One example shows that standard methods that target the MLE (like the EM algorithm) 
-                            remain optimal for hidden Markov models under ambiguity and misspecification in an offline setting. In the online parameter estimation setting,
-                            the optimal parameter update is quite straightforward: it corrects the classical estimator downward by the a term proportional to the sum of previous estimates.
-                            In a second example, we show that the Neyman allocation remains the optimal sampling scheme for estimation of average treatment effect and for treatment assignment under distributional shifts. 
-                            Finally, a nonlinear PDE characterizes optimal decisions for a multi-armed bandit under potentially nonstationary rewards.
-                            
-                        </p>
-                    </div>
+                    <details class="paper-abstract">
+                        <summary>Show abstract</summary>
+                        <p>Recent literature on robustness has axiomatized decision making under both ambiguity and misspecification, raising a natural question as to how decision makers (DMs) can design robust decision rules. In this paper, we formalize ambiguity and misspecification in dynamic settings and construct optimal decision rules under various applications of the robustness framework. One example shows that standard methods that target the MLE (like the EM algorithm) remain optimal for hidden Markov models under ambiguity and misspecification in an offline setting. In the online parameter estimation setting, the optimal parameter update is quite straightforward: it corrects the classical estimator downward by a term proportional to the sum of previous estimates. In a second example, we show that the Neyman allocation remains the optimal sampling scheme for estimation of average treatment effect and for treatment assignment under distributional shifts. Finally, a nonlinear PDE characterizes optimal decisions for a multi-armed bandit under potentially nonstationary rewards.</p>
+                    </details>
                 </li>
-        </ul>
+            </ul>
         </section>
     </main>
     <footer>
