@@ -75,6 +75,26 @@ footer {
     opacity: 0.8;
 }
 
+.download-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.download-button:hover {
+    background-color: #555;
+}
+
+.download-button:focus-visible {
+    outline: 3px solid #1DB954;
+    outline-offset: 3px;
+}
+
 /* PDF Viewer */
 .pdf-viewer iframe {
     border: 2px solid #333;
